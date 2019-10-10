@@ -1,0 +1,92 @@
+
+.layout{
+  position:absolute;
+  text-align:justify;
+  background-color: #f7ecf4;
+  margin: 30px;
+
+}
+.heading-box{
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #2fc643;
+  display: flex;
+  justify-content: center;
+}
+.inner-box{
+  border: 2px solid #ffffff;
+  margin: 30px;
+}
+
+.nme{
+  background-color: #2fc643;
+  padding-left: 120px;
+  padding-right: 120px;
+  color: White;
+}
+
+.parent{
+  display: flex;
+}
+
+.left-pane{
+  width:230px;
+  background:#dcdcdc;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.photo {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+.right-pane{
+  flex: 1;
+  width: 700;
+  padding-left: 60px;
+  margin-right: 60px;
+  //background:#ebebe0;
+}
+
+.Para{
+  border: 1px;
+  padding-left: 130px;
+  padding-right: 50px;
+  word-wrap: break-word;
+  list-style-type:circle;
+  font-style: oblique;
+}
+.experience p{
+
+}
+
+.skills ul{
+  padding-left: 100px;
+  padding-right: 50px;
+  list-style-type:circle;
+  display: inline-block;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+}
+.fa-twitter-square {
+  color: #1da1f2;
+}
